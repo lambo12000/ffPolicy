@@ -1,0 +1,110 @@
+{
+  "policies": {
+    "Extensions": {
+      "Install": [
+        "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/addon-607454-latest.xpi"
+      ]
+    },
+    "3rdparty": {
+      "Extensions": {
+        "uBlock0@raymondhill.net": {
+          "adminSettings": {
+            "userSettings": {
+              "advancedUserEnabled": true,
+              "autoUpdate": true,
+
+              "collapseBlocked": true,
+              "contextMenuEnabled": true,
+              "showIconBadge": true,
+              "uiAccentCustom": false,
+              "uiTheme": "auto"
+            },
+            "selectedFilterLists": [
+              "user-filters",
+              "ublock-filters",
+              "ublock-badware",
+              "ublock-privacy",
+              "ublock-quick-fixes",
+              "ublock-unbreak",
+              "easylist",
+              "adguard-generic",
+              "adguard-mobile",
+              "easyprivacy",
+              "adguard-spyware-url",
+              "block-lan",
+              "urlhaus-1",
+              "curben-phishing",
+              "plowe-0",
+              "dpollock-0",
+              "fanboy-cookiemonster",
+              "ublock-cookies-easylist",
+              "adguard-cookies",
+              "ublock-cookies-adguard",
+              "fanboy-social",
+              "adguard-social",
+              "fanboy-thirdparty_social",
+              "easylist-chat",
+              "easylist-newsletters",
+              "easylist-notifications",
+              "easylist-annoyances",
+              "adguard-mobile-app-banners",
+              "adguard-other-annoyances",
+              "adguard-popup-overlays",
+              "adguard-widgets",
+              "ublock-annoyances"
+            ],
+            "adminSettingsVersion": "1.0.0"
+          }
+        }
+      }
+    },
+    "FirefoxHome": {
+      "Highlights": true,
+      "Pocket": false,
+      "Search": true,
+      "SponsoredPocket": false,
+      "SponsoredTopSites": false,
+      "TopSites": false
+    },
+    "GenerativeAI": {
+      "Chatbot": false,
+      "Enabled": false,
+      "LinkPreviews": false,
+      "TabGroups": false
+    },
+    "VisualSearchEnabled": true,
+    "DisableTelemetry": true,
+    "DisableFirefoxStudies": true,
+    "DisableFirefoxScreenshots": true,
+    "DisableDefaultBrowserAgent": true,
+    "DNSOverHTTPS": {
+      "Enabled": true,
+      "ProviderURL": "https://mozilla.cloudflare-dns.com/dns-query",
+      "Locked": true
+    },
+    "DisableFirefoxAccounts": true,
+    "SanitizeOnShutdown": {
+      "Keep": [
+        "bookmarks",
+        "history",
+        "logins",
+        "passwords"
+      ],
+      "Locked": true
+    },
+    "HttpsOnlyMode": "enabled",
+    "PostQuantumKeyAgreementEnabled": true,
+    "SSLVersionMin": "tls1.3",
+    "DisableFormHistory": true,
+    "DisablePasswordReveal": true,
+    "NetworkPrediction": false,
+    "SearchSuggestEnabled": false,
+    "DisableProfileImport": true,
+    "Preferences": {
+      "browser.contentblocking.category": {
+        "Value": "strict",
+        "Status": "locked"
+      }
+    }
+  }
+}
