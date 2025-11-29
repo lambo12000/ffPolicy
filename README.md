@@ -1,4 +1,4 @@
-# Firefox Policies for Linux
+# Firefox Policies
 
 This repository contains custom policies for the Firefox web browser, primarily defined in the `policies/policies.json` file. These policies can be used to customize and lockdown various Firefox settings.
 
