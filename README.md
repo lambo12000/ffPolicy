@@ -31,4 +31,3 @@ To make updating your policies easier, you can use a symbolic link (symlink). Th
     ```
     This command creates a symbolic link from the `policies.json` file in your cloned repository to the Firefox policies directory.
 
-**Note:** Always ensure you understand the policies you are applying, as they can significantly alter Firefox's behavior. Refer to the official Mozilla documentation for more details on Firefox policies.
