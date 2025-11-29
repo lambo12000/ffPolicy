@@ -83,15 +83,6 @@
       "Locked": true
     },
     "DisableFirefoxAccounts": true,
-    "SanitizeOnShutdown": {
-      "Keep": [
-        "bookmarks",
-        "history",
-        "logins",
-        "passwords"
-      ],
-      "Locked": true
-    },
     "HttpsOnlyMode": "enabled",
     "PostQuantumKeyAgreementEnabled": true,
     "SSLVersionMin": "tls1.3",

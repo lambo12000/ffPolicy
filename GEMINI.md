@@ -31,3 +31,4 @@ This project is managed by an AI agent. When making changes to the policies, ple
 *   Added policies for tracking protection.
 *   Removed the "Notifications" policy as it is only available via Group Policy on Windows.
 *   Removed the "privacy.resistFingerprinting" preference due to stability reasons.
+*   Removed the "SanitizeOnShutdown" policy as it was too strict.
